@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This script configures a new Ubuntu machine to install and configure Nginx and ensure it listens on port 80.
 
 # Update and upgrade the system
