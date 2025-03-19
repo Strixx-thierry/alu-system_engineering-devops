@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#updating and installinggit add .
+git commit -m 'ok'
+git push
+apt update
+apt install -y apache2
+service apache2 start
+echo "Hello Holberton" > /var/www/html/index.html
+echo "service apache2 start" >> ~/.bashrc
